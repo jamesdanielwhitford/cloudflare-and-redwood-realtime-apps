@@ -164,11 +164,11 @@ export class AuthService {
 
   // Create session cookie
   createSessionCookie(sessionId: string): string {
-    return `session_id=${sessionId}; HttpOnly; Secure; SameSite=Strict; Path=/; Max-Age=${7 * 24 * 60 * 60}`;
+    return `session_id=${sessionId}; HttpOnly; SameSite=Strict; Path=/; Max-Age=${7 * 24 * 60 * 60}`;
   }
 
   // Clear session cookie
   clearSessionCookie(): string {
-    return `session_id=; HttpOnly; Secure; SameSite=Strict; Path=/; Max-Age=0`;
+    return `session_id=; HttpOnly; SameSite=Strict; Path=/; Max-Age=0`;
   }
 }
