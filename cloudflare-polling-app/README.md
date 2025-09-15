@@ -1,11 +1,6 @@
-# Cloudflare Workers Polling Apps
+# Cloudflare Workers Polling App
 
-This folder contains polling applications built with raw Cloudflare Workers.
-
-## Apps
-
-### cloudflare-realtime-app
-Complete real-time polling application with authentication, vote counting, and live updates.
+Complete real-time polling application built with raw Cloudflare Workers.
 
 **Features:**
 - User registration and login
@@ -16,7 +11,7 @@ Complete real-time polling application with authentication, vote counting, and l
 
 **Setup:**
 ```bash
-cd cloudflare-apps/cloudflare-realtime-app
+cd cloudflare-polling-app
 npm install
 npm run dev
 ```

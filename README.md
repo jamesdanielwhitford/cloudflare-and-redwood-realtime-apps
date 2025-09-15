@@ -15,23 +15,22 @@ Both apps have the same features:
 ## Structure
 
 ```
-├── cloudflare-apps/           # Raw Cloudflare Workers implementations
-├── rwsdk-apps/               # RedwoodSDK implementations
-└── writing/                  # Tutorial guide and documentation
+├── cloudflare-polling-app/    # Raw Cloudflare Workers implementation
+└── redwood-polling-app/       # RedwoodSDK implementation
 ```
 
 ## Quick Start
 
 ### Cloudflare Workers Version
 ```bash
-cd cloudflare-apps/cloudflare-realtime-app
+cd cloudflare-polling-app
 npm install
 npm run dev
 ```
 
 ### RedwoodSDK Version
 ```bash
-cd rwsdk-apps/real-time-app
+cd redwood-polling-app
 npm install
 npm run dev
 ```
@@ -56,4 +55,4 @@ Both apps run on `http://localhost:5173`
 
 ## Tutorial
 
-See the complete tutorial guide in `writing/guide.md` that walks through building both applications step by step.
+See the complete tutorial guide that walks through building both applications step by step at: [Cloudflare's Great DX Gets Even Better: RedwoodSDK's React Abstractions Tested](https://ritza.co/cloudflare-redwood-comparison)

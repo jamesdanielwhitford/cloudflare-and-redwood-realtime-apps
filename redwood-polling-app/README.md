@@ -1,11 +1,6 @@
-# RedwoodSDK Polling Apps
+# RedwoodSDK Polling App
 
-This folder contains polling applications built with RedwoodSDK framework.
-
-## Apps
-
-### real-time-app
-Complete real-time polling application with the same features as the Cloudflare Workers version, but built with RedwoodSDK abstractions.
+Complete real-time polling application built with RedwoodSDK framework. Same features as the Cloudflare Workers version, but with framework abstractions.
 
 **Features:**
 - Poll creation with custom colors
@@ -16,7 +11,7 @@ Complete real-time polling application with the same features as the Cloudflare 
 
 **Setup:**
 ```bash
-cd rwsdk-apps/real-time-app
+cd redwood-polling-app
 npm install
 npm run dev
 ```
